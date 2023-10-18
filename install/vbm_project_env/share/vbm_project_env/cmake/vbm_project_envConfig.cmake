@@ -1,0 +1,1 @@
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/ament_cmake_core/vbm_project_envConfig.cmake

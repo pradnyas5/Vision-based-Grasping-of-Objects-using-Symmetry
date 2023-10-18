@@ -1,0 +1,176 @@
+[0.068s] Invoking command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake /home/loser/ros2_ws/src/vbm_project_env -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env
+[0.807s] -- The C compiler identification is GNU 11.4.0
+[1.526s] -- The CXX compiler identification is GNU 11.4.0
+[1.572s] -- Detecting C compiler ABI info
+[1.854s] -- Detecting C compiler ABI info - done
+[1.863s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.864s] -- Detecting C compile features
+[1.877s] -- Detecting C compile features - done
+[1.895s] -- Detecting CXX compiler ABI info
+[2.089s] -- Detecting CXX compiler ABI info - done
+[2.096s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.096s] -- Detecting CXX compile features
+[2.096s] -- Detecting CXX compile features - done
+[2.120s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.364s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.503s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.682s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.785s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.792s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.805s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.823s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.849s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.219s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.238s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.331s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.345s] -- Looking for pthread.h
+[3.544s] -- Looking for pthread.h - found
+[3.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.796s] -- Found Threads: TRUE  
+[4.574s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.866s] -- Checking for module 'eigen3'
+[4.947s] --   Found eigen3, version 3.4.0
+[5.116s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.116s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.215s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.232s] -- Checking for module 'flann'
+[5.244s] --   Found flann, version 1.9.1
+[5.377s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.378s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.577s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.635s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.087s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.089s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.098s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[6.123s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.143s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[6.374s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.689s] -- Found X11: /usr/include   
+[6.690s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.846s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.847s] -- Looking for gethostbyname
+[7.119s] -- Looking for gethostbyname - found
+[7.119s] -- Looking for connect
+[7.248s] -- Looking for connect - found
+[7.249s] -- Looking for remove
+[7.539s] -- Looking for remove - found
+[7.539s] -- Looking for shmat
+[7.685s] -- Looking for shmat - found
+[7.685s] -- Looking for IceConnectionNumber in ICE
+[7.921s] -- Looking for IceConnectionNumber in ICE - found
+[8.242s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[8.246s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[8.258s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[8.281s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[9.219s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[9.252s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[9.270s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[9.312s] -- Found utf8cpp: /usr/include/utf8cpp  
+[9.496s] -- Checking for module 'libusb-1.0'
+[9.511s] --   Found libusb-1.0, version 1.0.25
+[9.549s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[9.550s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[9.550s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.611s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[9.611s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.611s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.751s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.756s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.762s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.334s] -- Found Qhull version 8.0.2
+[10.766s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.210s] -- looking for PCL_COMMON
+[11.213s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.214s] -- looking for PCL_KDTREE
+[11.217s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.217s] -- looking for PCL_OCTREE
+[11.220s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.221s] -- looking for PCL_SEARCH
+[11.224s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.225s] -- looking for PCL_SAMPLE_CONSENSUS
+[11.228s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.229s] -- looking for PCL_FILTERS
+[11.232s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.233s] -- looking for PCL_2D
+[11.234s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[11.235s] -- looking for PCL_GEOMETRY
+[11.235s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.236s] -- looking for PCL_IO
+[11.239s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.240s] -- looking for PCL_FEATURES
+[11.243s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.244s] -- looking for PCL_ML
+[11.247s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.248s] -- looking for PCL_SEGMENTATION
+[11.251s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.252s] -- looking for PCL_VISUALIZATION
+[11.255s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.256s] -- looking for PCL_SURFACE
+[11.260s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.261s] -- looking for PCL_REGISTRATION
+[11.265s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.266s] -- looking for PCL_KEYPOINTS
+[11.269s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.270s] -- looking for PCL_TRACKING
+[11.273s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.274s] -- looking for PCL_RECOGNITION
+[11.277s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.279s] -- looking for PCL_STEREO
+[11.282s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.283s] -- looking for PCL_APPS
+[11.286s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.288s] -- looking for PCL_IN_HAND_SCANNER
+[11.290s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[11.290s] -- looking for PCL_MODELER
+[11.291s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[11.292s] -- looking for PCL_POINT_CLOUD_EDITOR
+[11.294s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[11.294s] -- looking for PCL_OUTOFCORE
+[11.298s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.299s] -- looking for PCL_PEOPLE
+[11.302s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.305s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") 
+[11.346s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[11.659s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.908s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.909s] -- Configured cppcheck include dirs: /home/loser/ros2_ws/src/vbm_project_env/include
+[11.910s] -- Configured cppcheck exclude dirs and/or files: 
+[11.915s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.923s] -- Added test 'lint_cmake' to check CMake code style
+[11.929s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.954s] -- Added test 'uncrustify' to check C / C++ code style
+[11.954s] -- Configured uncrustify additional arguments: 
+[11.959s] -- Added test 'xmllint' to check XML markup files
+[11.967s] -- Configuring done
+[12.490s] -- Generating done
+[12.501s] -- Build files have been written to: /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env
+[12.526s] Invoked command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake /home/loser/ros2_ws/src/vbm_project_env -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env
+[12.528s] Invoking command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env -- -j12 -l12
+[12.578s] [ 50%] [32mBuilding CXX object CMakeFiles/sample_object.dir/src/object_sample.cpp.o[0m
+[35.977s] [100%] [32m[1mLinking CXX executable sample_object[0m
+[39.340s] [100%] Built target sample_object
+[39.371s] Invoked command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env -- -j12 -l12
+[39.483s] Invoking command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --install /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env
+[39.496s] -- Install configuration: ""
+[39.496s] -- Execute custom install script
+[39.497s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py
+[39.507s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world
+[39.516s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf
+[39.524s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/lib/vbm_project_env/sample_object
+[39.533s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env
+[39.541s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env
+[39.550s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh
+[39.558s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv
+[39.566s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/path.sh
+[39.574s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/path.dsv
+[39.599s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.bash
+[39.637s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.sh
+[39.675s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.zsh
+[39.713s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.dsv
+[39.752s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/package.dsv
+[39.790s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env
+[39.828s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake
+[39.865s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake
+[39.903s] -- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/package.xml
+[39.948s] Invoked command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --install /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env

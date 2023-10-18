@@ -1,0 +1,8 @@
+source;share/vbm_project_env/hook/cmake_prefix_path.ps1
+source;share/vbm_project_env/hook/cmake_prefix_path.dsv
+source;share/vbm_project_env/hook/cmake_prefix_path.sh
+source;share/vbm_project_env/local_setup.bash
+source;share/vbm_project_env/local_setup.dsv
+source;share/vbm_project_env/local_setup.ps1
+source;share/vbm_project_env/local_setup.sh
+source;share/vbm_project_env/local_setup.zsh

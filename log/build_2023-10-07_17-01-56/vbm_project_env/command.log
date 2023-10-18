@@ -1,0 +1,2 @@
+Invoking command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env -- -j12 -l12
+Invoked command in '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble /usr/bin/cmake --build /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env -- -j12 -l12

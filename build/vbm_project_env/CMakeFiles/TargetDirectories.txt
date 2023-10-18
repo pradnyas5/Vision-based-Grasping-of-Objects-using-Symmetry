@@ -1,0 +1,10 @@
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/uninstall.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/vbm_project_env_uninstall.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/sample_object.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/test.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/edit_cache.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/rebuild_cache.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/list_install_components.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/install.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/install/local.dir
+/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env/CMakeFiles/install/strip.dir

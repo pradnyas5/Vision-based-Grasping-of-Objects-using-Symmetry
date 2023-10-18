@@ -1,0 +1,1 @@
+/home/loser/ros2_ws/src/vbm_project_env/launch/simulation.launch.py

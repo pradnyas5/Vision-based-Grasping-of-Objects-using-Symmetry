@@ -1,0 +1,585 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (vbm_project_env) JobQueued: {'identifier': 'vbm_project_env', 'dependencies': OrderedDict()}
+[0.000167] (vbm_project_env) JobStarted: {'identifier': 'vbm_project_env'}
+[0.066207] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'cmake'}
+[0.066383] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '/home/loser/ros2_ws/src/vbm_project_env', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env'], 'cwd': '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'loser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/loser'), ('OLDPWD', '/home/loser/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1750'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2622'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/loser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'loser'), ('JOURNAL_STREAM', '8:26319'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/loser/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/loser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arena22:@/tmp/.ICE-unix/1904,unix/arena22:/tmp/.ICE-unix/1904'), ('INVOCATION_ID', 'db7fdb3343a3441e882075577e8f008f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF5QC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:88af8475-5b1d-4392-9734-afd9c3490a6b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loser/ros2_ws/build/opencv_test_py:/home/loser/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble')]), 'shell': False}
+[0.099678] (-) TimerEvent: {}
+[0.199984] (-) TimerEvent: {}
+[0.300507] (-) TimerEvent: {}
+[0.400927] (-) TimerEvent: {}
+[0.501479] (-) TimerEvent: {}
+[0.602033] (-) TimerEvent: {}
+[0.702593] (-) TimerEvent: {}
+[0.803104] (-) TimerEvent: {}
+[0.807473] (vbm_project_env) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.903337] (-) TimerEvent: {}
+[1.003920] (-) TimerEvent: {}
+[1.104530] (-) TimerEvent: {}
+[1.205189] (-) TimerEvent: {}
+[1.305773] (-) TimerEvent: {}
+[1.406266] (-) TimerEvent: {}
+[1.506636] (-) TimerEvent: {}
+[1.526345] (vbm_project_env) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.571874] (vbm_project_env) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606794] (-) TimerEvent: {}
+[1.707341] (-) TimerEvent: {}
+[1.807915] (-) TimerEvent: {}
+[1.854281] (vbm_project_env) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.863461] (vbm_project_env) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.864073] (vbm_project_env) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.877249] (vbm_project_env) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.894932] (vbm_project_env) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.908080] (-) TimerEvent: {}
+[2.008606] (-) TimerEvent: {}
+[2.088584] (vbm_project_env) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.095810] (vbm_project_env) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.096080] (vbm_project_env) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.096464] (vbm_project_env) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.108646] (-) TimerEvent: {}
+[2.120102] (vbm_project_env) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.208851] (-) TimerEvent: {}
+[2.309331] (-) TimerEvent: {}
+[2.363779] (vbm_project_env) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.409560] (-) TimerEvent: {}
+[2.502829] (vbm_project_env) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.509658] (-) TimerEvent: {}
+[2.609965] (-) TimerEvent: {}
+[2.681886] (vbm_project_env) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.710076] (-) TimerEvent: {}
+[2.785390] (vbm_project_env) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.792240] (vbm_project_env) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.804670] (vbm_project_env) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.810174] (-) TimerEvent: {}
+[2.823593] (vbm_project_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.848914] (vbm_project_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910364] (-) TimerEvent: {}
+[3.010934] (-) TimerEvent: {}
+[3.111537] (-) TimerEvent: {}
+[3.212147] (-) TimerEvent: {}
+[3.218591] (vbm_project_env) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.237807] (vbm_project_env) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.312268] (-) TimerEvent: {}
+[3.331102] (vbm_project_env) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.345552] (vbm_project_env) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.412487] (-) TimerEvent: {}
+[3.512975] (-) TimerEvent: {}
+[3.544334] (vbm_project_env) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.544751] (vbm_project_env) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.613185] (-) TimerEvent: {}
+[3.713812] (-) TimerEvent: {}
+[3.792429] (vbm_project_env) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.796333] (vbm_project_env) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.813994] (-) TimerEvent: {}
+[3.914560] (-) TimerEvent: {}
+[4.015170] (-) TimerEvent: {}
+[4.115683] (-) TimerEvent: {}
+[4.216040] (-) TimerEvent: {}
+[4.316683] (-) TimerEvent: {}
+[4.417299] (-) TimerEvent: {}
+[4.517917] (-) TimerEvent: {}
+[4.574510] (vbm_project_env) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.617998] (-) TimerEvent: {}
+[4.718319] (-) TimerEvent: {}
+[4.818927] (-) TimerEvent: {}
+[4.865430] (vbm_project_env) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[4.919120] (-) TimerEvent: {}
+[4.946963] (vbm_project_env) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[5.019357] (-) TimerEvent: {}
+[5.115554] (vbm_project_env) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[5.115997] (vbm_project_env) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[5.119527] (-) TimerEvent: {}
+[5.215479] (vbm_project_env) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[5.219615] (-) TimerEvent: {}
+[5.231975] (vbm_project_env) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[5.244393] (vbm_project_env) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[5.319838] (-) TimerEvent: {}
+[5.376760] (vbm_project_env) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[5.377524] (vbm_project_env) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[5.420014] (-) TimerEvent: {}
+[5.520646] (-) TimerEvent: {}
+[5.577182] (vbm_project_env) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[5.620817] (-) TimerEvent: {}
+[5.634490] (vbm_project_env) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[5.720947] (-) TimerEvent: {}
+[5.821293] (-) TimerEvent: {}
+[5.921912] (-) TimerEvent: {}
+[6.022533] (-) TimerEvent: {}
+[6.087239] (vbm_project_env) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[6.088525] (vbm_project_env) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[6.098271] (vbm_project_env) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[6.122637] (vbm_project_env) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[6.122806] (-) TimerEvent: {}
+[6.143136] (vbm_project_env) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[6.223018] (-) TimerEvent: {}
+[6.323577] (-) TimerEvent: {}
+[6.373548] (vbm_project_env) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[6.423754] (-) TimerEvent: {}
+[6.524310] (-) TimerEvent: {}
+[6.624583] (-) TimerEvent: {}
+[6.688548] (vbm_project_env) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[6.689827] (vbm_project_env) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[6.724677] (-) TimerEvent: {}
+[6.825029] (-) TimerEvent: {}
+[6.845963] (vbm_project_env) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[6.846740] (vbm_project_env) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[6.925241] (-) TimerEvent: {}
+[7.025879] (-) TimerEvent: {}
+[7.119271] (vbm_project_env) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[7.119499] (vbm_project_env) StdoutLine: {'line': b'-- Looking for connect\n'}
+[7.125950] (-) TimerEvent: {}
+[7.226286] (-) TimerEvent: {}
+[7.247838] (vbm_project_env) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[7.248464] (vbm_project_env) StdoutLine: {'line': b'-- Looking for remove\n'}
+[7.326498] (-) TimerEvent: {}
+[7.427109] (-) TimerEvent: {}
+[7.527730] (-) TimerEvent: {}
+[7.538648] (vbm_project_env) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[7.539351] (vbm_project_env) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[7.627915] (-) TimerEvent: {}
+[7.684936] (vbm_project_env) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[7.685184] (vbm_project_env) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[7.728107] (-) TimerEvent: {}
+[7.828757] (-) TimerEvent: {}
+[7.921159] (vbm_project_env) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[7.928932] (-) TimerEvent: {}
+[8.029498] (-) TimerEvent: {}
+[8.130124] (-) TimerEvent: {}
+[8.230719] (-) TimerEvent: {}
+[8.241829] (vbm_project_env) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[8.246078] (vbm_project_env) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[8.257713] (vbm_project_env) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[8.280613] (vbm_project_env) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[8.330923] (-) TimerEvent: {}
+[8.431432] (-) TimerEvent: {}
+[8.531992] (-) TimerEvent: {}
+[8.632548] (-) TimerEvent: {}
+[8.733111] (-) TimerEvent: {}
+[8.833664] (-) TimerEvent: {}
+[8.934225] (-) TimerEvent: {}
+[9.034790] (-) TimerEvent: {}
+[9.135366] (-) TimerEvent: {}
+[9.218644] (vbm_project_env) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[9.235547] (-) TimerEvent: {}
+[9.251960] (vbm_project_env) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[9.269996] (vbm_project_env) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[9.311725] (vbm_project_env) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[9.335706] (-) TimerEvent: {}
+[9.436102] (-) TimerEvent: {}
+[9.496289] (vbm_project_env) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[9.511170] (vbm_project_env) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[9.536222] (-) TimerEvent: {}
+[9.548662] (vbm_project_env) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[9.550095] (vbm_project_env) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[9.550199] (vbm_project_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.611032] (vbm_project_env) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[9.611214] (vbm_project_env) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.611386] (vbm_project_env) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[9.636320] (-) TimerEvent: {}
+[9.736550] (-) TimerEvent: {}
+[9.751051] (vbm_project_env) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[9.756598] (vbm_project_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[9.761995] (vbm_project_env) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[9.836720] (-) TimerEvent: {}
+[9.937335] (-) TimerEvent: {}
+[10.037968] (-) TimerEvent: {}
+[10.138586] (-) TimerEvent: {}
+[10.239174] (-) TimerEvent: {}
+[10.334048] (vbm_project_env) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[10.339363] (-) TimerEvent: {}
+[10.439928] (-) TimerEvent: {}
+[10.540548] (-) TimerEvent: {}
+[10.641158] (-) TimerEvent: {}
+[10.741772] (-) TimerEvent: {}
+[10.765589] (vbm_project_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[10.841974] (-) TimerEvent: {}
+[10.942539] (-) TimerEvent: {}
+[11.042988] (-) TimerEvent: {}
+[11.143598] (-) TimerEvent: {}
+[11.209638] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[11.212830] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[11.213554] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[11.216548] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[11.217232] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[11.220223] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[11.220854] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[11.224018] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[11.224762] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[11.227870] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[11.228561] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[11.231652] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[11.232528] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[11.233544] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[11.234257] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[11.235294] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[11.235954] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[11.238882] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[11.239944] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[11.243019] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[11.243735] (-) TimerEvent: {}
+[11.244239] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[11.247043] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[11.247675] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[11.250807] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[11.251919] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[11.255086] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[11.256171] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[11.259426] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[11.261333] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[11.264470] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[11.265517] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[11.269036] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[11.269991] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[11.273100] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[11.273950] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[11.277125] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[11.278434] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[11.281765] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[11.282526] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[11.285752] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[11.288214] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[11.289427] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[11.290089] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[11.291086] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[11.291744] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[11.293608] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[11.294275] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[11.297497] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[11.298434] (vbm_project_env) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[11.301618] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[11.305024] (vbm_project_env) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") \n'}
+[11.343933] (-) TimerEvent: {}
+[11.346008] (vbm_project_env) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[11.444154] (-) TimerEvent: {}
+[11.544701] (-) TimerEvent: {}
+[11.644947] (-) TimerEvent: {}
+[11.658693] (vbm_project_env) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.745433] (-) TimerEvent: {}
+[11.846034] (-) TimerEvent: {}
+[11.907795] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.909200] (vbm_project_env) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/loser/ros2_ws/src/vbm_project_env/include\n'}
+[11.909621] (vbm_project_env) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.914757] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.922867] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.928439] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.946203] (-) TimerEvent: {}
+[11.953541] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.953957] (vbm_project_env) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.959028] (vbm_project_env) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.966582] (vbm_project_env) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.046425] (-) TimerEvent: {}
+[12.147042] (-) TimerEvent: {}
+[12.247635] (-) TimerEvent: {}
+[12.348213] (-) TimerEvent: {}
+[12.448837] (-) TimerEvent: {}
+[12.490349] (vbm_project_env) StdoutLine: {'line': b'-- Generating done\n'}
+[12.500464] (vbm_project_env) StdoutLine: {'line': b'-- Build files have been written to: /home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env\n'}
+[12.525640] (vbm_project_env) CommandEnded: {'returncode': 0}
+[12.526474] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'build'}
+[12.528004] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env', '--', '-j12', '-l12'], 'cwd': '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'loser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/loser'), ('OLDPWD', '/home/loser/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1750'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2622'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/loser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'loser'), ('JOURNAL_STREAM', '8:26319'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/loser/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/loser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arena22:@/tmp/.ICE-unix/1904,unix/arena22:/tmp/.ICE-unix/1904'), ('INVOCATION_ID', 'db7fdb3343a3441e882075577e8f008f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF5QC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:88af8475-5b1d-4392-9734-afd9c3490a6b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loser/ros2_ws/build/opencv_test_py:/home/loser/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble')]), 'shell': False}
+[12.548941] (-) TimerEvent: {}
+[12.577684] (vbm_project_env) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sample_object.dir/src/object_sample.cpp.o\x1b[0m\n'}
+[12.649155] (-) TimerEvent: {}
+[12.749775] (-) TimerEvent: {}
+[12.850393] (-) TimerEvent: {}
+[12.950999] (-) TimerEvent: {}
+[13.051609] (-) TimerEvent: {}
+[13.152181] (-) TimerEvent: {}
+[13.252646] (-) TimerEvent: {}
+[13.353232] (-) TimerEvent: {}
+[13.453833] (-) TimerEvent: {}
+[13.554219] (-) TimerEvent: {}
+[13.654781] (-) TimerEvent: {}
+[13.755088] (-) TimerEvent: {}
+[13.855424] (-) TimerEvent: {}
+[13.955718] (-) TimerEvent: {}
+[14.056165] (-) TimerEvent: {}
+[14.156718] (-) TimerEvent: {}
+[14.257229] (-) TimerEvent: {}
+[14.357574] (-) TimerEvent: {}
+[14.458140] (-) TimerEvent: {}
+[14.558714] (-) TimerEvent: {}
+[14.659280] (-) TimerEvent: {}
+[14.759792] (-) TimerEvent: {}
+[14.860198] (-) TimerEvent: {}
+[14.960777] (-) TimerEvent: {}
+[15.061171] (-) TimerEvent: {}
+[15.161675] (-) TimerEvent: {}
+[15.262246] (-) TimerEvent: {}
+[15.362815] (-) TimerEvent: {}
+[15.463353] (-) TimerEvent: {}
+[15.563672] (-) TimerEvent: {}
+[15.663954] (-) TimerEvent: {}
+[15.764243] (-) TimerEvent: {}
+[15.864555] (-) TimerEvent: {}
+[15.964861] (-) TimerEvent: {}
+[16.065166] (-) TimerEvent: {}
+[16.165461] (-) TimerEvent: {}
+[16.265836] (-) TimerEvent: {}
+[16.366411] (-) TimerEvent: {}
+[16.466985] (-) TimerEvent: {}
+[16.567484] (-) TimerEvent: {}
+[16.667891] (-) TimerEvent: {}
+[16.768490] (-) TimerEvent: {}
+[16.869063] (-) TimerEvent: {}
+[16.969579] (-) TimerEvent: {}
+[17.069993] (-) TimerEvent: {}
+[17.170595] (-) TimerEvent: {}
+[17.271126] (-) TimerEvent: {}
+[17.371511] (-) TimerEvent: {}
+[17.472052] (-) TimerEvent: {}
+[17.572659] (-) TimerEvent: {}
+[17.673090] (-) TimerEvent: {}
+[17.773442] (-) TimerEvent: {}
+[17.873872] (-) TimerEvent: {}
+[17.974229] (-) TimerEvent: {}
+[18.074769] (-) TimerEvent: {}
+[18.175360] (-) TimerEvent: {}
+[18.275794] (-) TimerEvent: {}
+[18.376157] (-) TimerEvent: {}
+[18.476796] (-) TimerEvent: {}
+[18.577288] (-) TimerEvent: {}
+[18.677569] (-) TimerEvent: {}
+[18.777857] (-) TimerEvent: {}
+[18.878264] (-) TimerEvent: {}
+[18.978539] (-) TimerEvent: {}
+[19.078922] (-) TimerEvent: {}
+[19.179528] (-) TimerEvent: {}
+[19.280144] (-) TimerEvent: {}
+[19.380699] (-) TimerEvent: {}
+[19.481052] (-) TimerEvent: {}
+[19.581670] (-) TimerEvent: {}
+[19.682278] (-) TimerEvent: {}
+[19.782896] (-) TimerEvent: {}
+[19.883439] (-) TimerEvent: {}
+[19.983725] (-) TimerEvent: {}
+[20.084006] (-) TimerEvent: {}
+[20.184288] (-) TimerEvent: {}
+[20.284617] (-) TimerEvent: {}
+[20.384897] (-) TimerEvent: {}
+[20.485173] (-) TimerEvent: {}
+[20.585447] (-) TimerEvent: {}
+[20.685726] (-) TimerEvent: {}
+[20.786003] (-) TimerEvent: {}
+[20.886375] (-) TimerEvent: {}
+[20.986993] (-) TimerEvent: {}
+[21.087654] (-) TimerEvent: {}
+[21.188274] (-) TimerEvent: {}
+[21.288955] (-) TimerEvent: {}
+[21.389572] (-) TimerEvent: {}
+[21.490187] (-) TimerEvent: {}
+[21.590797] (-) TimerEvent: {}
+[21.691417] (-) TimerEvent: {}
+[21.792024] (-) TimerEvent: {}
+[21.892661] (-) TimerEvent: {}
+[21.993195] (-) TimerEvent: {}
+[22.093485] (-) TimerEvent: {}
+[22.193855] (-) TimerEvent: {}
+[22.294467] (-) TimerEvent: {}
+[22.395076] (-) TimerEvent: {}
+[22.495707] (-) TimerEvent: {}
+[22.596324] (-) TimerEvent: {}
+[22.696959] (-) TimerEvent: {}
+[22.797569] (-) TimerEvent: {}
+[22.898186] (-) TimerEvent: {}
+[22.998740] (-) TimerEvent: {}
+[23.099026] (-) TimerEvent: {}
+[23.199308] (-) TimerEvent: {}
+[23.299585] (-) TimerEvent: {}
+[23.399860] (-) TimerEvent: {}
+[23.500120] (-) TimerEvent: {}
+[23.600448] (-) TimerEvent: {}
+[23.700728] (-) TimerEvent: {}
+[23.801006] (-) TimerEvent: {}
+[23.901384] (-) TimerEvent: {}
+[24.001996] (-) TimerEvent: {}
+[24.102607] (-) TimerEvent: {}
+[24.203170] (-) TimerEvent: {}
+[24.303617] (-) TimerEvent: {}
+[24.404228] (-) TimerEvent: {}
+[24.504878] (-) TimerEvent: {}
+[24.605488] (-) TimerEvent: {}
+[24.706098] (-) TimerEvent: {}
+[24.806620] (-) TimerEvent: {}
+[24.906941] (-) TimerEvent: {}
+[25.007225] (-) TimerEvent: {}
+[25.107502] (-) TimerEvent: {}
+[25.207779] (-) TimerEvent: {}
+[25.308053] (-) TimerEvent: {}
+[25.408329] (-) TimerEvent: {}
+[25.508721] (-) TimerEvent: {}
+[25.609333] (-) TimerEvent: {}
+[25.709943] (-) TimerEvent: {}
+[25.810472] (-) TimerEvent: {}
+[25.910840] (-) TimerEvent: {}
+[26.011456] (-) TimerEvent: {}
+[26.112086] (-) TimerEvent: {}
+[26.212729] (-) TimerEvent: {}
+[26.313348] (-) TimerEvent: {}
+[26.413967] (-) TimerEvent: {}
+[26.514613] (-) TimerEvent: {}
+[26.615229] (-) TimerEvent: {}
+[26.715869] (-) TimerEvent: {}
+[26.816537] (-) TimerEvent: {}
+[26.916881] (-) TimerEvent: {}
+[27.017500] (-) TimerEvent: {}
+[27.118111] (-) TimerEvent: {}
+[27.218717] (-) TimerEvent: {}
+[27.319239] (-) TimerEvent: {}
+[27.419605] (-) TimerEvent: {}
+[27.520220] (-) TimerEvent: {}
+[27.620864] (-) TimerEvent: {}
+[27.721507] (-) TimerEvent: {}
+[27.822031] (-) TimerEvent: {}
+[27.922307] (-) TimerEvent: {}
+[28.022674] (-) TimerEvent: {}
+[28.123295] (-) TimerEvent: {}
+[28.223909] (-) TimerEvent: {}
+[28.324466] (-) TimerEvent: {}
+[28.424742] (-) TimerEvent: {}
+[28.525112] (-) TimerEvent: {}
+[28.625730] (-) TimerEvent: {}
+[28.726344] (-) TimerEvent: {}
+[28.826888] (-) TimerEvent: {}
+[28.927211] (-) TimerEvent: {}
+[29.027534] (-) TimerEvent: {}
+[29.127911] (-) TimerEvent: {}
+[29.228539] (-) TimerEvent: {}
+[29.329052] (-) TimerEvent: {}
+[29.429312] (-) TimerEvent: {}
+[29.529687] (-) TimerEvent: {}
+[29.630289] (-) TimerEvent: {}
+[29.730891] (-) TimerEvent: {}
+[29.831414] (-) TimerEvent: {}
+[29.931768] (-) TimerEvent: {}
+[30.032410] (-) TimerEvent: {}
+[30.133016] (-) TimerEvent: {}
+[30.233617] (-) TimerEvent: {}
+[30.334149] (-) TimerEvent: {}
+[30.434449] (-) TimerEvent: {}
+[30.534721] (-) TimerEvent: {}
+[30.635079] (-) TimerEvent: {}
+[30.735683] (-) TimerEvent: {}
+[30.836219] (-) TimerEvent: {}
+[30.936548] (-) TimerEvent: {}
+[31.036913] (-) TimerEvent: {}
+[31.137513] (-) TimerEvent: {}
+[31.238139] (-) TimerEvent: {}
+[31.338719] (-) TimerEvent: {}
+[31.439146] (-) TimerEvent: {}
+[31.539505] (-) TimerEvent: {}
+[31.640108] (-) TimerEvent: {}
+[31.740742] (-) TimerEvent: {}
+[31.841338] (-) TimerEvent: {}
+[31.941857] (-) TimerEvent: {}
+[32.042211] (-) TimerEvent: {}
+[32.142813] (-) TimerEvent: {}
+[32.243415] (-) TimerEvent: {}
+[32.344015] (-) TimerEvent: {}
+[32.444552] (-) TimerEvent: {}
+[32.544821] (-) TimerEvent: {}
+[32.645182] (-) TimerEvent: {}
+[32.745783] (-) TimerEvent: {}
+[32.846385] (-) TimerEvent: {}
+[32.946904] (-) TimerEvent: {}
+[33.047263] (-) TimerEvent: {}
+[33.147888] (-) TimerEvent: {}
+[33.248492] (-) TimerEvent: {}
+[33.349125] (-) TimerEvent: {}
+[33.449641] (-) TimerEvent: {}
+[33.549892] (-) TimerEvent: {}
+[33.650145] (-) TimerEvent: {}
+[33.750421] (-) TimerEvent: {}
+[33.850676] (-) TimerEvent: {}
+[33.950950] (-) TimerEvent: {}
+[34.051195] (-) TimerEvent: {}
+[34.151439] (-) TimerEvent: {}
+[34.251777] (-) TimerEvent: {}
+[34.352413] (-) TimerEvent: {}
+[34.453023] (-) TimerEvent: {}
+[34.553629] (-) TimerEvent: {}
+[34.654226] (-) TimerEvent: {}
+[34.754865] (-) TimerEvent: {}
+[34.855166] (-) TimerEvent: {}
+[34.955530] (-) TimerEvent: {}
+[35.056140] (-) TimerEvent: {}
+[35.156784] (-) TimerEvent: {}
+[35.257395] (-) TimerEvent: {}
+[35.358003] (-) TimerEvent: {}
+[35.458612] (-) TimerEvent: {}
+[35.559222] (-) TimerEvent: {}
+[35.659830] (-) TimerEvent: {}
+[35.760421] (-) TimerEvent: {}
+[35.860746] (-) TimerEvent: {}
+[35.961059] (-) TimerEvent: {}
+[35.976561] (vbm_project_env) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sample_object\x1b[0m\n'}
+[36.061218] (-) TimerEvent: {}
+[36.161646] (-) TimerEvent: {}
+[36.262001] (-) TimerEvent: {}
+[36.362483] (-) TimerEvent: {}
+[36.462872] (-) TimerEvent: {}
+[36.563256] (-) TimerEvent: {}
+[36.663819] (-) TimerEvent: {}
+[36.764293] (-) TimerEvent: {}
+[36.864835] (-) TimerEvent: {}
+[36.965183] (-) TimerEvent: {}
+[37.065491] (-) TimerEvent: {}
+[37.165930] (-) TimerEvent: {}
+[37.266236] (-) TimerEvent: {}
+[37.366636] (-) TimerEvent: {}
+[37.467060] (-) TimerEvent: {}
+[37.567596] (-) TimerEvent: {}
+[37.668086] (-) TimerEvent: {}
+[37.768522] (-) TimerEvent: {}
+[37.868972] (-) TimerEvent: {}
+[37.969422] (-) TimerEvent: {}
+[38.069715] (-) TimerEvent: {}
+[38.170095] (-) TimerEvent: {}
+[38.270443] (-) TimerEvent: {}
+[38.370833] (-) TimerEvent: {}
+[38.471454] (-) TimerEvent: {}
+[38.572086] (-) TimerEvent: {}
+[38.672681] (-) TimerEvent: {}
+[38.773216] (-) TimerEvent: {}
+[38.873557] (-) TimerEvent: {}
+[38.974180] (-) TimerEvent: {}
+[39.074817] (-) TimerEvent: {}
+[39.175471] (-) TimerEvent: {}
+[39.276008] (-) TimerEvent: {}
+[39.340036] (vbm_project_env) StdoutLine: {'line': b'[100%] Built target sample_object\n'}
+[39.367974] (vbm_project_env) CommandEnded: {'returncode': 0}
+[39.376217] (-) TimerEvent: {}
+[39.447375] (vbm_project_env) JobProgress: {'identifier': 'vbm_project_env', 'progress': 'install'}
+[39.476498] (-) TimerEvent: {}
+[39.482976] (vbm_project_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env'], 'cwd': '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'loser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/loser'), ('OLDPWD', '/home/loser/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1750'), ('SYSTEMD_EXEC_PID', '2169'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2622'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/loser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'loser'), ('JOURNAL_STREAM', '8:26319'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/loser/ros2_ws/install/rrbot_description/share:/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/loser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/arena22:@/tmp/.ICE-unix/1904,unix/arena22:/tmp/.ICE-unix/1904'), ('INVOCATION_ID', 'db7fdb3343a3441e882075577e8f008f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZF5QC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:88af8475-5b1d-4392-9734-afd9c3490a6b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loser/ros2_ws/src/vbm_project_env/build/vbm_project_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loser/ros2_ws/build/opencv_test_py:/home/loser/ros2_ws/install/opencv_test_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/loser/ros2_ws/install/vbm_project_env:/home/loser/ros2_ws/install/rrbot_gazebo:/home/loser/ros2_ws/install/rrbot_description:/home/loser/ros2_ws/install/opencv_test_py:/opt/ros/humble')]), 'shell': False}
+[39.495644] (vbm_project_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.496205] (vbm_project_env) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[39.496787] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/launch/simulation.launch.py\n'}
+[39.507037] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/worlds/simulation.world\n'}
+[39.515786] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/urdf/camera.urdf\n'}
+[39.524353] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/lib/vbm_project_env/sample_object\n'}
+[39.532824] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/package_run_dependencies/vbm_project_env\n'}
+[39.541516] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/parent_prefix_path/vbm_project_env\n'}
+[39.549670] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.sh\n'}
+[39.557743] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/ament_prefix_path.dsv\n'}
+[39.565907] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/path.sh\n'}
+[39.573995] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/environment/path.dsv\n'}
+[39.576550] (-) TimerEvent: {}
+[39.598763] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.bash\n'}
+[39.636600] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.sh\n'}
+[39.675189] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.zsh\n'}
+[39.676738] (-) TimerEvent: {}
+[39.712744] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/local_setup.dsv\n'}
+[39.751578] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/package.dsv\n'}
+[39.776923] (-) TimerEvent: {}
+[39.789419] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/ament_index/resource_index/packages/vbm_project_env\n'}
+[39.827479] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig.cmake\n'}
+[39.864912] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/cmake/vbm_project_envConfig-version.cmake\n'}
+[39.877100] (-) TimerEvent: {}
+[39.902857] (vbm_project_env) StdoutLine: {'line': b'-- Symlinking: /home/loser/ros2_ws/src/vbm_project_env/install/vbm_project_env/share/vbm_project_env/package.xml\n'}
+[39.947524] (vbm_project_env) CommandEnded: {'returncode': 0}
+[39.977544] (-) TimerEvent: {}
+[40.077996] (-) TimerEvent: {}
+[40.179064] (-) TimerEvent: {}
+[40.280506] (-) TimerEvent: {}
+[40.370747] (vbm_project_env) JobEnded: {'identifier': 'vbm_project_env', 'rc': 0}
+[40.372833] (-) EventReactorShutdown: {}
