@@ -16,7 +16,7 @@ The "Grasping Assuming Symmetry" project leverages the nature of symmetry in man
 ### Step 2: Point Cloud Completion
 ●	A symmetry-based approach is utilized to complete the point cloud. The best symmetry plane is determined based on visibility constraints.    
 
-![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/9af92a5a-7be6-4e9d-bd3c-2454c7aa7fc2)
+![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/9af92a5a-7be6-4e9d-bd3c-2454c7aa7fc2)   
 *Incomplete and Complete Point Cloud*
 
 ●	We first create all possible planes oriented at different angles.    
@@ -31,7 +31,7 @@ The "Grasping Assuming Symmetry" project leverages the nature of symmetry in man
 ●	The computed normal at a point is influenced by the positions of its neighbors. The method calculates the best-fitting plane for the neighbors and determines the plane's perpendicular as the normal.    
 ●	Normals are then visualized as small arrows emanating from points in the point cloud, pointing in the direction of the normal as seen in the figure below.   
 
-![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/4c9fafd8-398e-4101-ace2-36f76551fac1)
+![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/4c9fafd8-398e-4101-ace2-36f76551fac1)    
 *Surface Normals*   
 
 ### Step 4: Grasp Detection   
@@ -61,13 +61,13 @@ Thus, we obtain the second point for grasping which will be the most stable gras
 
 ## 3. Results of Point Cloud Completion
 
-![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/7bd6e168-a989-425b-aff6-49eb649bb128)
+![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/7bd6e168-a989-425b-aff6-49eb649bb128)    
 *Coke Can*
 
-![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/9e14a30e-6505-4918-8196-0b557af8db20)
+![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/9e14a30e-6505-4918-8196-0b557af8db20)   
 *Beer Can*
 
-![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/ebe37122-bd1d-4021-b12a-4be79d2bd1e4)
+![image](https://github.com/pradnyas5/Vision-based-Grasping-of-Objects-using-Symmetry/assets/93536494/ebe37122-bd1d-4021-b12a-4be79d2bd1e4)   
 *Cricket Ball*
 
 
