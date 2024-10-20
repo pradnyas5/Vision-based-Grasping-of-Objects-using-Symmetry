@@ -5,7 +5,28 @@ The "Grasping Assuming Symmetry" project leverages the nature of symmetry in man
 
 ## 2. Implementation   
 
-Run
+Before implementing, source ROS 2 workspace and follow the steps to build the code:
+
+### Terminal 1
+
+Launch simulation environment.
 
 ```bash
-object_sample.cpp
+ros2 launch vbm_project_env simulation.launch.py
+```
+
+### Terminal 2
+
+Run object sampling ros2 node.
+
+```bash
+ros2 run vbm_project_env object_sample.cpp
+```
+
+### Terminal 3
+
+Observe the point cloud by adding topics.
+
+```bash
+rviz2
+```
