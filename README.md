@@ -8,4 +8,4 @@ The "Grasping Assuming Symmetry" project leverages the nature of symmetry in man
 Run
 
 ```bash
-python3 main.py
+object_sample.cpp
